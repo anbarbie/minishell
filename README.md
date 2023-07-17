@@ -13,7 +13,7 @@ The Minishell program should meet the following requirements:
 - Handle single quotes ('), preventing the shell from interpreting metacharacters within the quoted sequence.
 - Handle double quotes (") allowing variable expansion ($), but preventing interpretation of other metacharacters within the quoted sequence.
 - Support input and output redirection using the '<' and '>' symbols, respectively.
-- Implement here-documents using the '<<' symbol, where the input is read until a line containing the specified delimiter is encountered.
+- Implement here-doc using the '<<' symbol, where the input is read until a line containing the specified delimiter is encountered.
 - Support output redirection in append mode using the '>>' symbol.
 - Implement pipes ('|') to connect the output of one command to the input of the next command in a pipeline.
 - Handle environment variables (e.g., $VAR) and expand them to their respective values.
